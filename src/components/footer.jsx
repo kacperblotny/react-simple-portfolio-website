@@ -20,7 +20,7 @@ function footer() {
             </a>
             <a
               href='#'
-              className='socials light:text-black p-2'
+              className='socials  p-2'
               onClick={() => setButtonPopup(true)}
             >
               <ion-icon name='mail-outline' size='large'></ion-icon>

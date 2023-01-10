@@ -3,10 +3,10 @@ import programming from '../assets/programming.svg'
 
 function landingpage() {
   return (
-    <div className='flex w-screen py-16 md:py-32'>
+    <div className='flex h-screen w-screen pt-16 md:pt-32'>
       <div className='mx-auto flex flex-col md:flex-row'>
-        <div className='my-auto text-black dark:text-white'>
-          <div>
+        <div className='my-auto w-full text-black dark:text-white md:w-96'>
+          <div className='m-w-fit'>
             <p>Hello, my name is</p>
             <p className='text-7xl'>Kacper Błotny</p>
             <p className='text-7xl'>Web developer</p>
@@ -24,7 +24,7 @@ function landingpage() {
             </a>
           </div>
         </div>
-        <img src={programming} alt='' />
+        <img src={programming} alt='' className='md:pl-12' />
       </div>
     </div>
   )

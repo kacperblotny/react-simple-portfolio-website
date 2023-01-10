@@ -21,6 +21,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
 }
@@ -84,3 +88,7 @@ button:focus-visible {
     color: black;
   }
 } */
+
+.h-132px {
+  max-height: 132px;
+}
