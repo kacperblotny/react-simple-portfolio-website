@@ -1,0 +1,12 @@
+import Popup from './popup'
+import { useState } from 'react'
+          
+function() {
+   const [buttonPopup, setButtonPopup] = useState(false)
+   
+   return (
+      <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+       <h1>My popup</h1>
+      </Popup>
+   )
+}
