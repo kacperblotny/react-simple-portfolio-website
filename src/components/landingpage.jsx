@@ -8,7 +8,7 @@ function landingpage() {
         <div className='my-auto text-black dark:text-white'>
           <div>
             <p>Hello, my name is</p>
-            <p className='text-7xl'>Kacper Błotny XXxxXX</p>
+            <p className='text-7xl'>Kacper Błotny</p>
             <p className='text-7xl'>Web developer</p>
             <p>
               I'm a beginner software engineer currently specilizing in
