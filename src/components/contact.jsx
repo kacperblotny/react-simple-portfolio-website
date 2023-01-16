@@ -1,19 +1,19 @@
 import React, { useRef } from 'react'
 // import emailjs from '@emailjs/browser'
 
-// function SendMail() {
-//   let params = {
-//     from_name: document.getElementById('fullName').value,
-//     email_id: document.getElementById('email_id').value,
-//     message: document.getElementById('message').value,
-//   }
+function SendMail() {
+  let params = {
+    from_name: document.getElementById('fullName').value,
+    email_id: document.getElementById('email_id').value,
+    message: document.getElementById('message').value,
+  }
 
-//   emailjs
-//     .send('service_4usd5ki', 'template_xqodktd', params)
-//     .then(function (res) {
-//       alert('Message sent sucessfully!')
-//     })
-// }
+  emailjs
+    .send('service_4usd5ki', 'template_xqodktd', params)
+    .then(function (res) {
+      alert('Message sent sucessfully!')
+    })
+}
 const form = useRef()
 
 const sendEmail = (e) => {

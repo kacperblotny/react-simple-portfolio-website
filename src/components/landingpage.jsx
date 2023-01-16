@@ -7,7 +7,7 @@ function landingpage() {
       <div className='mx-auto flex w-4/5 md:flex-row'>
         <div className='my-auto text-black dark:text-white md:w-3/5'>
           <p>Hello, my name is</p>
-          <p className='text-7xl'>Kacper Błotny</p>
+          <p className='text-7xl'>139812739128</p>
           <p className='text-7xl'>Web developer</p>
           <p>
             I'm a beginner software engineer currently specilizing in front-end.
