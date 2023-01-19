@@ -1,8 +1,8 @@
-import Navbar from './components/navbar'
-import Footer from './components/footer'
-import Tester from './components/tester'
-import Landing from './components/landingpage'
-import About from './components/about'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import Tester from './components/Tester'
+import Landing from './components/Landingpage'
+import About from './components/About'
 
 function App() {
   return (

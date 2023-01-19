@@ -62,9 +62,9 @@ function navbar() {
   })
 
   return (
-    <div className='fixed w-screen'>
-      <nav class='bg-lightElementBg p-4 dark:bg-darkElementBg'>
-        <div class='container mx-auto flex flex-wrap items-center justify-between'>
+    <div className='fixed z-50 w-screen'>
+      <nav className='bg-lightElementBg p-4 opacity-90 shadow-2xl dark:bg-darkElementBg'>
+        <div className='container mx-auto flex flex-wrap items-center justify-between'>
           <a href='#' class='flex items-center text-primary'>
             Kacper Błotny | Portoflio
           </a>
@@ -153,8 +153,8 @@ function navbar() {
                           <button
                             key={opt.text}
                             onClick={() => setTheme(opt.text)}
-                            className={`m-1 flex border-gray-400 dark:border-none dark:bg-gray-800 ${
-                              theme === opt.text && 'text-primary'
+                            className={`m-1 flex bg-gray-200 text-black transition-all duration-300 hover:bg-gray-600 dark:border-none dark:bg-gray-800 dark:text-white dark:hover:bg-gray-500 ${
+                              theme === opt.text && 'text-black'
                             }`}
                           >
                             <ion-icon name={opt.icon}></ion-icon>

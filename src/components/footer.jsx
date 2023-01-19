@@ -1,6 +1,6 @@
 import React from 'react'
-import Popup from './popup'
-import Contactform from './contactform.jsx'
+import Popup from './Popup'
+import Contactform from './Contactform.jsx'
 import { useState } from 'react'
 
 function footer() {
