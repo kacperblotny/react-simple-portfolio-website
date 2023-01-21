@@ -1,4 +1,4 @@
-import Navbar from './components/Navbar'
+// import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Tester from './components/Tester'
 import Landing from './components/Landingpage'
@@ -8,7 +8,7 @@ import Socials from './components/Socials'
 function App() {
   return (
     <div className='h-screen bg-white dark:bg-primaryBG'>
-      <Navbar />
+      {/* <Navbar /> */}
       <Socials />
       <Landing />
       <About />
