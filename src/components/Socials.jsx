@@ -1,0 +1,61 @@
+import React from 'react'
+
+function Socials() {
+  return (
+    <>
+      <div className='fixed bottom-0 left-0 hidden px-4 md:block'>
+        <ul>
+          <li className='py-1 duration-150 hover:-translate-y-1'>
+            {' '}
+            <a
+              href=''
+              className='socials2 p-2 text-2xl  hover:text-primary dark:text-white dark:hover:text-primary'
+            >
+              <ion-icon name='logo-linkedin' className=''></ion-icon>
+            </a>
+          </li>
+          <li className='py-1 duration-150 hover:-translate-y-1'>
+            {' '}
+            <a
+              href=''
+              className='socials2 p-2 text-2xl hover:text-primary dark:text-white dark:hover:text-primary'
+            >
+              <ion-icon name='logo-github' className=''></ion-icon>
+            </a>
+          </li>
+          <li className='py-1 duration-150 hover:-translate-y-1'>
+            {' '}
+            <a
+              href=''
+              className='socials2 p-2 text-2xl hover:text-primary dark:text-white dark:hover:text-primary'
+            >
+              <ion-icon name='logo-instagram' className=''></ion-icon>
+            </a>
+          </li>
+          <li className='py-1 duration-150 hover:-translate-y-1'>
+            <a
+              href=''
+              className='socials2 p-2 text-2xl hover:text-primary dark:text-white dark:hover:text-primary'
+            >
+              <ion-icon name='logo-twitter' className=''></ion-icon>
+            </a>
+          </li>
+          <li>
+            <div className='mx-auto mt-2 flex h-24 w-px bg-black dark:bg-white'></div>
+          </li>
+        </ul>
+      </div>
+      <div className='vertical-rl fixed bottom-0 right-0 hidden px-6 md:block'>
+        <a
+          href='mailto:blotnykacper@gmail.com'
+          className='verticalText cursor-pointer text-left duration-150 hover:-translate-y-1 hover:text-primary dark:text-white dark:hover:text-primary'
+        >
+          blotnykacper@gmail.com
+        </a>
+        <div className='mx-auto mt-4 flex h-24 w-px bg-black dark:bg-white'></div>
+      </div>
+    </>
+  )
+}
+
+export default Socials

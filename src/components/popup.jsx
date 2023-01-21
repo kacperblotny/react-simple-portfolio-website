@@ -14,7 +14,7 @@ function popup(props) {
               <div className='mt-2 text-center sm:ml-4 sm:text-left'>
                 {props.children}
                 <button
-                  className='mt-2 ml-auto flex rounded-md bg-red-600 px-2 py-1 text-white outline-none ring-red-600 ring-offset-2 focus:ring-2'
+                  className='mt-2 ml-auto flex rounded-md bg-red-600 px-2 py-1 text-white outline-none ring-red-600 ring-offset-2 duration-150 ease-in hover:scale-105 focus:ring-2'
                   onClick={() => props.setTrigger(false)}
                 >
                   Close

@@ -68,7 +68,7 @@ function contactform() {
       <input
         type='submit'
         value='Send'
-        className='mr-auto mt-4 flex rounded bg-primary py-1 px-3 text-white'
+        className='mr-auto mt-4 flex rounded bg-primary py-1 px-3 text-white duration-150 ease-in hover:scale-105'
       />
     </div>
   )

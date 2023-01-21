@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Overpass', sans-serif;
 }
 a {
   font-weight: 500;
@@ -64,14 +64,7 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  transition: all 0.3s;
 }
 
 /* @media (prefers-color-scheme: light) {
@@ -96,4 +89,8 @@ button:focus-visible {
 
 .h-132px {
   max-height: 132px;
+}
+
+.verticalText {
+  writing-mode: vertical-lr;
 }
