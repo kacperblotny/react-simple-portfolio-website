@@ -26,7 +26,7 @@ function landingpage() {
             Read more about me!
           </a>
         </div>
-        <div id='readMore' className='absolute bottom-0'></div>
+        <div id='readMore' className='mt-48'></div>
       </div>
     </div>
   )

@@ -8,7 +8,8 @@ function Socials() {
           <li className='py-1 duration-150 hover:-translate-y-1'>
             {' '}
             <a
-              href=''
+              href='https://www.linkedin.com/in/kacper-b%C5%82otny-b4046924a/'
+              target='_blank'
               className='socials2 p-2 text-2xl  hover:text-primary dark:text-white dark:hover:text-primary'
             >
               <ion-icon name='logo-linkedin' className=''></ion-icon>
@@ -17,7 +18,8 @@ function Socials() {
           <li className='py-1 duration-150 hover:-translate-y-1'>
             {' '}
             <a
-              href=''
+              href='https://github.com/KacperBlotny'
+              target='_blank'
               className='socials2 p-2 text-2xl hover:text-primary dark:text-white dark:hover:text-primary'
             >
               <ion-icon name='logo-github' className=''></ion-icon>
@@ -26,7 +28,8 @@ function Socials() {
           <li className='py-1 duration-150 hover:-translate-y-1'>
             {' '}
             <a
-              href=''
+              href='https://www.instagram.com/'
+              target='_blank'
               className='socials2 p-2 text-2xl hover:text-primary dark:text-white dark:hover:text-primary'
             >
               <ion-icon name='logo-instagram' className=''></ion-icon>
@@ -34,7 +37,8 @@ function Socials() {
           </li>
           <li className='py-1 duration-150 hover:-translate-y-1'>
             <a
-              href=''
+              href='https://twitter.com/'
+              target='_blank'
               className='socials2 p-2 text-2xl hover:text-primary dark:text-white dark:hover:text-primary'
             >
               <ion-icon name='logo-twitter' className=''></ion-icon>

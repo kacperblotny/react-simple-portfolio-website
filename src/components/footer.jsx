@@ -13,19 +13,29 @@ function footer() {
           <h2 className='text-center'>You can find me here</h2>
           <div className='flex'>
             <a
-              href=''
+              href='https://www.linkedin.com/in/kacper-b%C5%82otny-b4046924a/'
+              target='_blank'
               className='socials p-2 hover:text-primary dark:text-white dark:hover:text-primary'
             >
               <ion-icon name='logo-linkedin' size='large'></ion-icon>
             </a>
             <a
-              href=''
+              href='https://github.com/KacperBlotny'
+              target='_blank'
               className='socials p-2 hover:text-primary dark:text-white dark:hover:text-primary'
             >
               <ion-icon name='logo-github' size='large'></ion-icon>
             </a>
             <a
+              href='https://twitter.com/'
+              target='_blank'
+              className='socials p-2 hover:text-primary dark:text-white dark:hover:text-primary'
+            >
+              <ion-icon name='logo-twitter' size='large'></ion-icon>
+            </a>
+            <a
               href='#'
+              target='_blank'
               className='socials  p-2 hover:text-primary dark:text-white dark:hover:text-primary'
               onClick={() => setButtonPopup(true)}
             >
@@ -35,7 +45,8 @@ function footer() {
               <Contactform />
             </Popup>
             <a
-              href=''
+              href='https://www.instagram.com/'
+              target='_blank'
               className='socials p-2 hover:text-primary dark:text-white dark:hover:text-primary'
             >
               <ion-icon name='logo-instagram' size='large'></ion-icon>

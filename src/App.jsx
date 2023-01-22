@@ -4,6 +4,7 @@ import Tester from './components/Tester'
 import Landing from './components/Landingpage'
 import About from './components/About'
 import Socials from './components/Socials'
+import Slider from './components/Slider'
 
 function App() {
   return (
@@ -12,9 +13,7 @@ function App() {
       <Socials />
       <Landing />
       <About />
-      <div className='grid h-80 content-center'>
-        <Tester />
-      </div>
+      <Slider />
 
       <Footer />
     </div>
