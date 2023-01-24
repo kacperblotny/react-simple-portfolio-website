@@ -13,6 +13,8 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Flowbite -->
     <link
       rel="stylesheet"
@@ -39,6 +41,13 @@
       ;(function () {
         emailjs.init('service_4usd5ki')
       })()
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init()
+      AOS.init({
+        disable: 'phone',
+      })
     </script>
   </body>
 </html>

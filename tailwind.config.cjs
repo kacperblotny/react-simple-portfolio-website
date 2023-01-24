@@ -12,7 +12,8 @@ module.exports = {
 
         darkBg: '#242424',
         lightBg: 'white',
-        darkElementBg: '#111827',
+        darkElementBg: '#112240',
+        darkElement2Bg: '#112240',
         lightElementBg: '#F3F4F6',
         darkElementBgSecondary: '#374151',
       },

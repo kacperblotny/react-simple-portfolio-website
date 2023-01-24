@@ -63,9 +63,18 @@ function navbar() {
 
   return (
     <div className='fixed z-50 w-screen'>
-      <nav className='bg-lightElementBg p-4 opacity-90 shadow-2xl dark:bg-darkElementBg'>
+      <nav
+        className='bg-lightElementBg p-4 opacity-90 shadow-2xl dark:bg-darkElementBg'
+        data-aos='fade-in'
+        data-aos-delay='200'
+      >
         <div className='container mx-auto flex flex-wrap items-center justify-between'>
-          <a href='#' class='flex items-center text-primary'>
+          <a
+            href='#'
+            class='flex items-center text-primary'
+            data-aos='fade-down'
+            data-aos-delay='500'
+          >
             Kacper Błotny | Portoflio
           </a>
           {/* Hamburger */}
@@ -95,24 +104,30 @@ function navbar() {
             <ul class='mt-4 flex flex-col rounded-lg border border-gray-300 bg-lightElementBg p-4 dark:border-gray-700 dark:bg-gray-800 md:mt-0 md:flex-row md:space-x-8 md:border-0 md:text-sm md:font-medium md:dark:bg-darkElementBg'>
               <li>
                 <a
-                  href='#'
+                  href='#readMore'
                   class='block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-lightElementBg dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white'
-                >
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a
-                  href='#'
-                  class='block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-lightElementBg dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white'
+                  data-aos='fade-down'
+                  data-aos-delay='500'
                 >
                   About
                 </a>
               </li>
               <li>
                 <a
-                  href='#'
+                  href='#projectsScroll'
                   class='block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-lightElementBg dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white'
+                  data-aos='fade-down'
+                  data-aos-delay='500'
+                >
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a
+                  href='#contactScroll'
+                  class='block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-lightElementBg dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white'
+                  data-aos='fade-down'
+                  data-aos-delay='500'
                 >
                   Contact
                 </a>
@@ -123,7 +138,9 @@ function navbar() {
                   data-dropdown-toggle='dropdownNavbar'
                   class='flex w-full items-center justify-between rounded bg-lightElementBg py-2 pl-3 pr-4 font-medium text-gray-700  hover:text-primary focus:text-primary dark:border-gray-700 dark:bg-darkElementBg dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:text-white md:w-auto md:border-0 md:p-0 md:hover:bg-transparent md:dark:hover:bg-transparent md:hover:dark:text-white'
                 >
-                  <p>Dropdown </p>
+                  <p data-aos='fade-down' data-aos-delay='500'>
+                    Dropdown{' '}
+                  </p>
                   <svg
                     class='ml-1 h-5 w-5'
                     aria-hidden='true'

@@ -5,58 +5,72 @@ import Rpe from '../assets/rpe.png'
 function Slider() {
   return (
     <div className='w-screen bg-white dark:bg-primaryBG'>
-      <div className='h-96'></div>
-      <div className='h-24'></div>
-      <div className='mx-auto flex flex-col px-4 md:w-4/5'>
+      <div className='hidden h-72 md:block'></div>
+      <div id='projectsScroll'></div>
+      <div className='h-48'></div>
+      <div
+        className='mx-auto flex flex-col px-4 md:w-4/5'
+        data-aos='fade-left'
+        data-aos-delay='200'
+      >
         <div className='bg-blue-700-50 flex px-4 md:ml-auto'>
           <div className='my-auto mx-4 flex h-px bg-primary md:w-96'></div>
-          <h2 className=' min-w-fit text-4xl'>
-            <span className=' pr-2 text-primary'>02.</span> My projects
+          <h2 className=' min-w-fit text-4xl text-black dark:text-white'>
+            <span className='pr-2 text-primary'>02.</span> My projects
           </h2>
         </div>
       </div>
-
       <div
         id='controls-carousel'
         class='relative mx-auto flex aspect-video bg-white text-black dark:bg-primaryBG dark:text-white md:w-3/4'
         data-carousel='static'
+        data-aos='fade-in'
+        data-aos-delay='200'
       >
-        <div class='relative mx-auto aspect-video w-11/12 overflow-hidden rounded-lg'>
+        <div class='relative mx-auto aspect-video w-8/12 overflow-hidden rounded-lg md:w-11/12'>
           <div class='hidden duration-700 ease-in-out' data-carousel-item>
-            <img
-              src={Rpe}
-              class='absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2 rounded bg-primaryBG'
-              alt='...'
-            />
+            <a href='https://rpelux.pl/' target='_blank'>
+              <img
+                src={Rpe}
+                class='absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2 rounded bg-primaryBG'
+                alt='...'
+              />
+            </a>
           </div>
           <div
             class='hidden min-h-fit w-full duration-700 ease-in-out'
             data-carousel-item
           >
-            <img
-              src={Schumacher}
-              class='absolute top-1/2 left-1/2 block -translate-x-1/2 -translate-y-1/2 rounded'
-              alt='...'
-            />
+            <a href='https://schumacher.pl/' target='_blank'>
+              <img
+                src={Schumacher}
+                class='absolute top-1/2 left-1/2 block -translate-x-1/2 -translate-y-1/2 rounded'
+                alt='...'
+              />
+            </a>
           </div>
 
           <div class='hidden duration-700 ease-in-out' data-carousel-item>
-            <img
-              src={Rpe}
-              class='absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2 rounded bg-primaryBG'
-              alt='...'
-            />
+            <a href='https://rpelux.pl/' target='_blank'>
+              <img
+                src={Rpe}
+                class='absolute top-1/2 left-1/2 block w-full -translate-x-1/2 -translate-y-1/2 rounded bg-primaryBG'
+                alt='...'
+              />
+            </a>
           </div>
 
           <div
             class=' hidden w-full duration-700 ease-in-out'
             data-carousel-item
           >
-            <img
-              src={Schumacher}
-              class='absolute top-1/2 left-1/2 block -translate-x-1/2 -translate-y-1/2 rounded'
-              alt='...'
-            />
+            <a href='https://schumacher.pl/' target='_blank'>
+              <img
+                src={Schumacher}
+                class='absolute top-1/2 left-1/2 block -translate-x-1/2 -translate-y-1/2 rounded'
+                alt='...'
+              />
+            </a>
           </div>
         </div>
 

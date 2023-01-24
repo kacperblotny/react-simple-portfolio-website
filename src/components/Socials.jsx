@@ -11,6 +11,8 @@ function Socials() {
               href='https://www.linkedin.com/in/kacper-b%C5%82otny-b4046924a/'
               target='_blank'
               className='socials2 p-2 text-2xl  hover:text-primary dark:text-white dark:hover:text-primary'
+              data-aos='fade-right'
+              data-aos-delay='1500'
             >
               <ion-icon name='logo-linkedin' className=''></ion-icon>
             </a>
@@ -21,6 +23,8 @@ function Socials() {
               href='https://github.com/KacperBlotny'
               target='_blank'
               className='socials2 p-2 text-2xl hover:text-primary dark:text-white dark:hover:text-primary'
+              data-aos='fade-right'
+              data-aos-delay='1400'
             >
               <ion-icon name='logo-github' className=''></ion-icon>
             </a>
@@ -31,6 +35,8 @@ function Socials() {
               href='https://www.instagram.com/'
               target='_blank'
               className='socials2 p-2 text-2xl hover:text-primary dark:text-white dark:hover:text-primary'
+              data-aos='fade-right'
+              data-aos-delay='1300'
             >
               <ion-icon name='logo-instagram' className=''></ion-icon>
             </a>
@@ -40,6 +46,8 @@ function Socials() {
               href='https://twitter.com/'
               target='_blank'
               className='socials2 p-2 text-2xl hover:text-primary dark:text-white dark:hover:text-primary'
+              data-aos='fade-right'
+              data-aos-delay='1200'
             >
               <ion-icon name='logo-twitter' className=''></ion-icon>
             </a>
@@ -53,6 +61,8 @@ function Socials() {
         <a
           href='mailto:blotnykacper@gmail.com'
           className='verticalText cursor-pointer text-left duration-150 hover:-translate-y-1 hover:text-primary dark:text-white dark:hover:text-primary'
+          data-aos='fade-left'
+          data-aos-delay='1000'
         >
           blotnykacper@gmail.com
         </a>

@@ -4,7 +4,7 @@ function popup(props) {
   return (
     props.trigger && (
       <>
-        <div className='fixed inset-0 z-10 overflow-y-auto'>
+        <div className='fixed inset-0 bottom-0 z-10 overflow-y-auto'>
           <div
             className='fixed inset-0 h-full w-full bg-black opacity-40'
             onClick={() => props.setTrigger(false)}

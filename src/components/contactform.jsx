@@ -25,14 +25,14 @@ import React from 'react'
 function contactform() {
   return (
     <div>
-      <h2 className=' text-4xl text-black dark:text-white'>Contact me!</h2>
+      <h2 className='text-4xl text-black dark:text-white'>Contact me!</h2>
       <p className='w-3/5 pb-4'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
         blanditiis temporibus amet fuga, assumenda velit quasi pariatur
         distinctio eos doloribus?
       </p>
       <div className='flex justify-between'>
-        <div className='flex flex-row'>
+        <div className='flex flex-col md:flex-row'>
           <div className='flex flex-col'>
             <label className='font-bold'>Name</label>
             <input type='text' name='user_name' className='w-80 p-2' required />
@@ -45,22 +45,31 @@ function contactform() {
             />
           </div>
 
-          <div className='h-132px px-4'>
+          <div className='h-132px pt-8 md:px-4 md:pt-0'>
             <p className='font-bold'>Message</p>
             <textarea name='message' className='h-full w-80 resize-none p-2' />
           </div>
 
           <div className='w-full'>
-            <h2 className='text-1xl font-bold'>Fell free to contact me here</h2>
+            <h2 className='text-1xl hidden font-bold md:block'>
+              Fell free to contact me here
+            </h2>
             <div className='pt-4 '>
-              <span className='flex text-center duration-300 hover:text-primary'>
-                <ion-icon name='logo-linkedin' size='large'></ion-icon>
+              <a
+                href='https://www.linkedin.com/in/kacper-b%C5%82otny-b4046924a/'
+                target='_blank'
+                className='flex items-center text-center text-white duration-300 hover:text-primary'
+              >
+                <ion-icon name='logo-linkedin'></ion-icon>
                 <p className='pl-2'>Linkedin</p>
-              </span>
-              <span className='flex text-center duration-300 hover:text-primary'>
-                <ion-icon name='mail-outline' size='large'></ion-icon>
+              </a>
+              <a
+                href='mailto:blotnykacper@gmail.com'
+                className='flex items-center text-center duration-300 hover:text-primary dark:text-white'
+              >
+                <ion-icon name='mail-outline'></ion-icon>
                 <p className='pl-2'>Email</p>
-              </span>
+              </a>
             </div>
           </div>
         </div>

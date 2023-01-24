@@ -1,10 +1,11 @@
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import Tester from './components/Tester'
 import Landing from './components/Landingpage'
 import About from './components/About'
 import Socials from './components/Socials'
 import Slider from './components/Slider'
+import Projects from './components/Projects'
+import Touch from './components/Touch'
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Landing />
       <About />
       <Slider />
+      <Projects />
+      <Touch />
 
       <Footer />
     </div>
