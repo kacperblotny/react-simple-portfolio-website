@@ -1,5 +1,5 @@
 import React from 'react'
-import Popup from './popup'
+import Popup from './Popup'
 import Contactform from './Contactform.jsx'
 import { useState } from 'react'
 
@@ -31,13 +31,6 @@ function Touch() {
 
     setMessage(workTimeCounter * workTime * 20)
   }
-
-  // let workTime = document.getElementById('workTime')
-  // function calculatePrice() {
-  //   console.log('testing xc')
-  //   console.log(workTime)
-  // }
-  // calculatePrice()
 
   return (
     <>
@@ -162,12 +155,6 @@ function Touch() {
                 </span>
               </div>
             </div>
-            {/* <button
-              className='mx-auto mt-6 flex bg-primary transition duration-300 hover:scale-105'
-              onClick={() => calculatePrice()}
-            >
-              Calculate
-            </button> */}
           </div>
         </div>
       </div>

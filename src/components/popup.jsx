@@ -10,7 +10,7 @@ function popup(props) {
             onClick={() => props.setTrigger(false)}
           ></div>
           <div className='mx-auto mt-32 flex max-h-fit px-4 py-8'>
-            <div className='relative mx-auto w-full rounded-md bg-white p-4 shadow-lg dark:bg-darkElementBg md:w-3/5'>
+            <div className='relative mx-auto w-full rounded-md bg-white p-4 shadow-lg dark:bg-darkElementBg md:w-2/4'>
               <div className='mt-2 text-center sm:ml-4 sm:text-left'>
                 {props.children}
                 <button
