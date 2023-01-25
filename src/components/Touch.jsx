@@ -6,6 +6,39 @@ import { useState } from 'react'
 function Touch() {
   const [buttonPopup, setButtonPopup] = useState(false)
 
+  const [message, setMessage] = useState('')
+  const [workTimeDisplay, setWorkTime] = useState('')
+
+  const handleChange = (event) => {
+    const business = document.getElementById('business')
+    const front = document.getElementById('front')
+    const back = document.getElementById('back')
+
+    let workTime = event.target.value
+    setWorkTime(workTime)
+
+    let workTimeCounter = 0
+
+    if (business.checked == true) {
+      workTimeCounter += 1
+    }
+    if (front.checked == true) {
+      workTimeCounter += 1
+    }
+    if (back.checked) {
+      workTimeCounter += 1
+    }
+
+    setMessage(workTimeCounter * workTime * 20)
+  }
+
+  // let workTime = document.getElementById('workTime')
+  // function calculatePrice() {
+  //   console.log('testing xc')
+  //   console.log(workTime)
+  // }
+  // calculatePrice()
+
   return (
     <>
       <div
@@ -67,11 +100,74 @@ function Touch() {
               </Popup>
             </div>
           </div>
-          <div className='pt-16'>
+          <div className='mt-16 bg-lightElementBg p-8 dark:bg-darkElementBg'>
             <h2 className='text-xl'>
               Here is a calculator to estimate your spendings on my work, if you
               wish to co-operate!
             </h2>
+            <p className='pb-8 text-sm text-gray-600'>
+              Note that every service is priced at 20$/h
+            </p>
+            <div className='flex w-full flex-col'>
+              <div className='flex justify-between'>
+                <div className='flex flex-col'>
+                  <span className='pb-2'>
+                    <input type='checkbox' id='business' />
+                    <label for='business' className='pl-2'>
+                      Basic business website
+                    </label>
+                  </span>
+                  <span className='pb-2'>
+                    <input type='checkbox' id='front' />
+                    <label for='front' className='pl-2'>
+                      Front-end work
+                    </label>
+                  </span>
+                  <span className='pb-2'>
+                    <input type='checkbox' id='back' />
+                    <label for='back' className='pl-2'>
+                      Back-end work
+                    </label>
+                  </span>
+                </div>
+                <div>
+                  <span>Price:</span>
+                  <span className='flex'>
+                    <a id='servicePrice' className='dark:text-white' value='0'>
+                      {message}
+                    </a>{' '}
+                    $
+                  </span>
+                </div>
+              </div>
+
+              <div className='mt-4 rounded p-4 dark:bg-primaryBG'>
+                <span className='flex flex-col items-center'>
+                  <label for='workTime'>
+                    Work time {workTimeDisplay} hours
+                  </label>
+                  <input
+                    type='range'
+                    id='workTime'
+                    name='workTime'
+                    min='15'
+                    max='500'
+                    className='w-full bg-lightElementBg dark:bg-primaryBG'
+                    onChange={handleChange}
+                  />
+                </span>
+                <span className='flex justify-between text-sm'>
+                  <p>Min: 15h</p>
+                  <p>Max: 500h</p>
+                </span>
+              </div>
+            </div>
+            {/* <button
+              className='mx-auto mt-6 flex bg-primary transition duration-300 hover:scale-105'
+              onClick={() => calculatePrice()}
+            >
+              Calculate
+            </button> */}
           </div>
         </div>
       </div>

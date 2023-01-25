@@ -26,23 +26,19 @@ function landingpage() {
           >
             I'm a beginner Web developer
           </p>
-          <p className='md:w-3/5' data-aos='fade-right' data-aos-delay='700'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ut
-            fugit esse repellat cumque natus error placeat ullam quidem quisquam
-            exercitationem cum fuga ipsam facere officia magni, minus architecto
-            recusandae illo ab. Ipsum, excepturi ex!{' '}
-            <a href='#' className='text-primary hover:text-primary'>
-              Lorem
-            </a>
+          <p className='md:w-2/5' data-aos='fade-right' data-aos-delay='700'>
+            I'm a web developer specializing in building full-stack web
+            applications. Currently I'm focusing on building projects to extend
+            my skills and knowledge.
           </p>
-          <a
-            href='#readMore'
-            className='mt-8 flex h-min w-fit rounded bg-primary px-4 py-2 text-xl text-white duration-150 ease-in hover:scale-105 hover:text-white'
-            data-aos='fade-right'
-            data-aos-delay='900'
-          >
-            Read more about me!
-          </a>
+          <span data-aos='fade-right' data-aos-delay='900'>
+            <a
+              href='#readMore'
+              className='mt-8 flex h-min w-fit rounded bg-primary px-4 py-2 text-xl transition duration-500 hover:scale-105 hover:bg-blue-600 dark:text-white'
+            >
+              Read more about me!
+            </a>
+          </span>
         </div>
         <div id='readMore' className='mt-24'></div>
       </div>

@@ -15,22 +15,17 @@ function about() {
         </div>
         <div className=''>
           <p className='py-4' data-aos='fade-right' data-aos-delay='200'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere sed
-            harum temporibus cumque sint repellat adipisci earum tenetur
-            reiciendis et! Asperiores sint odit modi veritatis eos fugit
-            voluptate. Praesentium, maiores.
+            Hello! My name is Kacper Błotny and I love creating things from
+            scratch. My interest in web development started few years ago when I
+            learnt some programming basics in highschool. I study computer
+            science student at Collegium Da Vinci, Poznań, Poland
+          </p>
+          <p className='pb-4' data-aos='fade-right' data-aos-delay='250'>
+            I'm a self taught web developer that loves learing and co-operating
+            with other aspiring developers.
           </p>
           <p className='pb-4' data-aos='fade-right' data-aos-delay='300'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae,
-            unde amet. Placeat itaque dolor officiis, tempore, atque, quidem
-            enim natus ab quis dignissimos ut vero.
-          </p>
-          <p className='pb-4' data-aos='fade-right' data-aos-delay='400'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
-            voluptate sint praesentium illo! Rem fuga sapiente magni praesentium
-            id laudantium reprehenderit saepe sit! Cumque, molestiae atque nobis
-            labore earum repellendus mollitia culpa alias eos dolore odio modi,
-            a consequatur rerum.
+            Here are a few technologies I feel confident in:
           </p>
           <ul className='grid grid-cols-2 gap-2 md:grid-cols-3'>
             <li className='flex' data-aos='fade-right' data-aos-delay='150'>

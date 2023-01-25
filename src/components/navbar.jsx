@@ -64,7 +64,7 @@ function navbar() {
   return (
     <div className='fixed z-50 w-screen'>
       <nav
-        className='bg-lightElementBg p-4 opacity-90 shadow-2xl dark:bg-darkElementBg'
+        className='bg-lightElementBg p-4 shadow-2xl dark:bg-darkElementBg md:opacity-90'
         data-aos='fade-in'
         data-aos-delay='200'
       >
@@ -139,7 +139,7 @@ function navbar() {
                   class='flex w-full items-center justify-between rounded bg-lightElementBg py-2 pl-3 pr-4 font-medium text-gray-700  hover:text-primary focus:text-primary dark:border-gray-700 dark:bg-darkElementBg dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:text-white md:w-auto md:border-0 md:p-0 md:hover:bg-transparent md:dark:hover:bg-transparent md:hover:dark:text-white'
                 >
                   <p data-aos='fade-down' data-aos-delay='500'>
-                    Dropdown{' '}
+                    Theme{' '}
                   </p>
                   <svg
                     class='ml-1 h-5 w-5'

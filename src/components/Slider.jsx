@@ -38,7 +38,7 @@ function Slider() {
             </a>
           </div>
           <div
-            class='hidden min-h-fit w-full duration-700 ease-in-out'
+            class='hidden w-full duration-700 ease-in-out'
             data-carousel-item
           >
             <a href='https://schumacher.pl/' target='_blank'>
