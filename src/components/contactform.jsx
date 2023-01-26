@@ -62,14 +62,14 @@ function contactform() {
               <label className='font-bold'>Name</label>
               <input
                 name='user_name'
-                className='w-80 bg-white p-2 text-black'
+                className='w-80 border border-black bg-white p-2 text-black'
                 required
               />
               <label className='pt-6 font-bold'>Email</label>
               <input
                 type='email'
                 name='user_email'
-                className='w-80 p-2 text-black'
+                className='w-80 border border-black p-2 text-black'
                 required
               />
             </div>
@@ -78,7 +78,7 @@ function contactform() {
               <p className='font-bold'>Message</p>
               <textarea
                 name='message'
-                className='h-full w-80 resize-none p-2 text-black'
+                className='h-full w-80 resize-none border border-black p-2 text-black'
               />
             </div>
             <input
@@ -96,14 +96,14 @@ function contactform() {
               <a
                 href='https://www.linkedin.com/in/kacper-b%C5%82otny-b4046924a/'
                 target='_blank'
-                className='flex items-center text-center text-white duration-300 hover:text-primary'
+                className='flex items-center text-center duration-300 hover:text-primary dark:text-white dark:hover:text-primary'
               >
                 <ion-icon name='logo-linkedin'></ion-icon>
                 <p className='pl-2'>Linkedin</p>
               </a>
               <a
                 href='mailto:blotnykacper@gmail.com'
-                className='flex items-center text-center duration-300 hover:text-primary dark:text-white'
+                className='flex items-center text-center duration-300 hover:text-primary dark:text-white dark:hover:text-primary'
               >
                 <ion-icon name='mail-outline'></ion-icon>
                 <p className='pl-2'>Email</p>
