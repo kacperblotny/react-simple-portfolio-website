@@ -18,7 +18,7 @@ function about() {
             Hello! My name is Kacper Błotny and I love creating things from
             scratch. My interest in web development started few years ago when I
             learnt some programming basics in highschool. I study computer
-            science student at Collegium Da Vinci, Poznań, Poland
+            science at Collegium Da Vinci, Poznań, Poland
           </p>
           <p className='pb-4' data-aos='fade-right' data-aos-delay='250'>
             I'm a self taught web developer that loves learing and co-operating

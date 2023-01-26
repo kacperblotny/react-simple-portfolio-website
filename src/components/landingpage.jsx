@@ -34,7 +34,7 @@ function landingpage() {
           <span data-aos='fade-right' data-aos-delay='900'>
             <a
               href='#readMore'
-              className='mt-8 flex h-min w-fit rounded bg-primary px-4 py-2 text-xl transition duration-500 hover:scale-105 hover:bg-blue-600 dark:text-white'
+              className='mt-8 flex h-min w-fit rounded bg-primary px-4 py-2 text-xl text-white transition duration-500 hover:scale-105 hover:bg-blue-600'
             >
               Read more about me!
             </a>
